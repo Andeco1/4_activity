@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Activity 1"
+        android:textSize="20sp"
+        >
+
+    </TextView>
+    <Button
+        android:id="@+id/But2"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Go to Activity 2!"></Button>
+    <Button
+        android:id="@+id/But3"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Go to Activity 3!"></Button>
+    <Button
+        android:id="@+id/But4"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Go to Activity 4!"></Button>
+    <Button
+        android:id="@+id/ButB"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Go back!"></Button>
+</LinearLayout>
